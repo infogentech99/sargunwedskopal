@@ -75,7 +75,7 @@ export default function Home() {
       image: "/assets/anand_amul.png",
       venue_address: <>Saturday, November 28th 2026 <br /> GURUDWARA SINGH SABHA, BILHARI <br /> 11:30 am Onwards</>,
       link: "https://maps.app.goo.gl/J8xLdsUC1PTdgQrN9",
-      title_ceremony2: "Wedding",
+      title_ceremony2: "Followed by Lunch",
       venue_address2: <>Saturday, November 28th 2026 <br /> Tulip Hall, Hotel Pasricha <br /> 2:00 pm Onwards</>,
       link2: "https://maps.app.goo.gl/8V9hVAr9Tz9qoQey7",
     },
@@ -251,7 +251,7 @@ export default function Home() {
 
                   {event.title_ceremony2 && (
                     <>
-                      <h2 className="text-[#15528A] font-playfair-display text-3xl md:text-2xl lg:text-[42px] mt-4">
+                      <h2 className="text-[#15528A] font-playfair-display text-[17px] md:text-xl lg:text-[26px] mt-4">
                         {event.title_ceremony2}
                       </h2>
 
