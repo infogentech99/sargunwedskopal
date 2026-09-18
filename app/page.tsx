@@ -43,22 +43,22 @@ const FloatingLamp = ({ className, style, reverse = false }: { className: string
 export default function Home() {
   const events = [
     {
-      title_ceremony: "Haldi, Mehndi and Jago",
-      image: "/assets/jago_amul.png",
+      title_ceremony: "Haldi and Mehndi",
+      image: "/assets/mehandi.webp",
       venue_address: <>Thursday, November 26th 2026 <br />  At our residence (Govind Farm) <br /> 11:00 am Onwards</>,
       link: "https://maps.app.goo.gl/aCyLozjyV2UkoXVL7?g_st=ac",
     },
 
-    // {
-    //   title_ceremony: "Jago",
-    //   image: "/assets/jago_amul.png",
-    //   venue_address: <>Thursday, November 26th 2026 <br />  At our residence (Govind Farm) <br /> 7:00 pm Onwards</>,
-    //   link: "https://maps.app.goo.gl/aCyLozjyV2UkoXVL7?g_st=ac",
-    // },
+    {
+      title_ceremony: "Jago",
+      image: "/assets/jago_amul.png",
+      venue_address: <>Thursday, November 26th 2026 <br />  At our residence (Govind Farm) <br /> 7:00 pm Onwards</>,
+      link: "https://maps.app.goo.gl/aCyLozjyV2UkoXVL7?g_st=ac",
+    },
 
     {
       title_ceremony: "Shagan",
-      image: "/assets/sagan_amul.png",
+      image: "/assets/shagan.webp",
       venue_address: <>Friday, November 27th 2026 <br />  At our residence (Govind Farm) <br /> 11:00 am Onwards</>,
       link: "https://maps.app.goo.gl/aCyLozjyV2UkoXVL7?g_st=ac",
     },
@@ -72,17 +72,20 @@ export default function Home() {
 
     {
       title_ceremony: "Anand Karaj",
-      image: "/assets/anand_karaj.webp",
+      image: "/assets/anand_amul.png",
       venue_address: <>Saturday, November 28th 2026 <br /> GURUDWARA SINGH SABHA, BILHARI <br /> 11:30 am Onwards</>,
       link: "https://maps.app.goo.gl/J8xLdsUC1PTdgQrN9",
+      title_ceremony2: "Wedding",
+      venue_address2: <>Saturday, November 28th 2026 <br /> Tulip Hall, Hotel Pasricha <br /> 2:00 pm Onwards</>,
+      link2: "https://maps.app.goo.gl/8V9hVAr9Tz9qoQey7",
     },
 
-     {
-      title_ceremony: "Wedding ",
-       image: "/assets/anand_amul.png",
-      venue_address: <>Saturday, November 28th 2026 <br /> Tulip Hall, Hotel Pasricha <br /> 2:00 pm Onwards</>,
-      link: "https://maps.app.goo.gl/8V9hVAr9Tz9qoQey7",
-    },
+    //  {
+    //   title_ceremony: "Wedding ",
+    //    image: "/assets/anand_amul.png",
+    //   venue_address: <>Saturday, November 28th 2026 <br /> Tulip Hall, Hotel Pasricha <br /> 2:00 pm Onwards</>,
+    //   link: "https://maps.app.goo.gl/8V9hVAr9Tz9qoQey7",
+    // },
 
 
     {
@@ -170,8 +173,8 @@ export default function Home() {
           </h2>
 
           <div className="flex flex-col items-center text-center gap-6 mt-0 lg:pt-50 pt-0">
-             <h2 className="text-[#15528A] text-[12px] md:text-xl lg:text-2xl md:pt-8 font-playfair-display">
-              ਸਚੁ ਪਿਆਰਾ ਤਬ ਜਾਨੀਐ <br/> ਜਾ ਗੁਰੂ ਸਬਦੁ ਵਿਚਾਰਿ ॥
+            <h2 className="text-[#15528A] text-[12px] md:text-xl lg:text-2xl md:pt-8 font-playfair-display">
+              ਸਚੁ ਪਿਆਰਾ ਤਬ ਜਾਨੀਐ <br /> ਜਾ ਗੁਰੂ ਸਬਦੁ ਵਿਚਾਰਿ ॥
             </h2>
 
             <Image
@@ -185,7 +188,8 @@ export default function Home() {
 
             <hr className="w-16 lg:w-24 border-[#15528A] my-2 md:my-4" />
             <h2 className="text-[#15528A] text-xs md:text-lg lg:text-[26px] font-playfair-display">
-              Sardarni Surinder Kaur Kamboj
+              {/* Sardarni Surinder Kaur Kamboj */}
+              Grandmother Sardarni Surinder Kaur Kamboj and Kamboj Brothers
             </h2>
           </div>
 
@@ -201,7 +205,9 @@ export default function Home() {
             <h2 className="text-[#15528A] font-playfair-display text-center mt-14 text-4xl md:text-6xl lg:text-[100px] leading-tight font-medium">
               Sargun Singh Kamboj
             </h2>
-
+            <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl mt-4">
+              Grandson of Sardarni Surinder Kaur Kamboj
+            </p>
             <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl mt-4">
               S/O <br /> Sardarni Gurjeet Kaur Kamboj and Sardar Rishiraman Singh Kamboj
             </p>
@@ -243,6 +249,31 @@ export default function Home() {
                     See the route
                   </a>
 
+                  {event.title_ceremony2 && (
+                    <>
+                      <h2 className="text-[#15528A] font-playfair-display text-3xl md:text-2xl lg:text-[42px] mt-4">
+                        {event.title_ceremony2}
+                      </h2>
+
+                      <p className="text-[#15528A] font-playfair-display text-sm md:text-base mt-2">
+                        <span className="text-sm md:text-base lg:text-xl">
+                          {event.venue_address2}
+                        </span>
+                      </p>
+
+                      {event.link2 && (
+                        <a
+                          href={event.link2}
+                          className="text-[#15528A] underline md:text-sm text-[12px] mt-2 font-playfair-display"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          See the route
+                        </a>
+                      )}
+                    </>
+                  )}
+
                 </div>
               ))}
             </div>
@@ -267,7 +298,7 @@ export default function Home() {
             <Image
               src="/assets/couple.webp"
               alt="couple" width={900} height={1200}
-              className="w-108 h-104 md:w-205 md:h-198 lg:w-440 lg:h-374 3xl:w-480 3xl:h-463 object-cover"/>
+              className="w-108 h-104 md:w-205 md:h-198 lg:w-440 lg:h-374 3xl:w-480 3xl:h-463 object-cover" />
           </div>
 
         </div>
@@ -284,7 +315,7 @@ export default function Home() {
       </div> */}
 
 
-        <div className="hidden md:block bg-[url('/assets/bg_three.webp')] bg-cover bg-no-repeat bg-center">
+      <div className="hidden md:block bg-[url('/assets/bg_three.webp')] bg-cover bg-no-repeat bg-center">
         <div className="lg:h-330 md:h-180 flex pt-80 justify-center">
           <img src="/assets/logo_n.png" alt="logo" className="w-32 h-48 md:w-40 lg:w-60" />
         </div>
