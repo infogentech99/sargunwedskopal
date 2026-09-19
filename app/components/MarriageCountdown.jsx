@@ -63,7 +63,7 @@ useEffect(() => {
                      <p className="text-xs md:text-xl lg:text-[26px] text-[#15528A] mt-4 text-center px-6 md:px-25 lg:px-65 3xl:px-120 font-playfair-display">
                         {/* Surrounded by family and friends, we can't wait to celebrate <br/>
 this beautiful moment with you. */}
-Surrounded by our beloved grandmother Sardarni Surinder Kaur Kamboj and the Kamboj family, can’t wait to celebrate this beautiful moment with you.
+Surrounded by our beloved, Grandmother Sardarni Surinder Kaur Kamboj and the Kamboj family, can’t wait to celebrate this beautiful moment with you.
                     </p>
                     <h2 className="text-xl md:text-4xl lg:text-[52px] text-center text-[#15528A] jacques-francois"> {timeLeft.days}D {timeLeft.hours}H {timeLeft.minutes}M {timeLeft.seconds}S</h2>
                    

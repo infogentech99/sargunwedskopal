@@ -45,21 +45,21 @@ export default function Home() {
     {
       title_ceremony: "Haldi and Mehndi",
       image: "/assets/mehandi.webp",
-      venue_address: <>Thursday, November 26th 2026 <br />  At our residence (Govind Farm) <br /> 11:00 am Onwards</>,
+      venue_address: <>Thursday, November 26th 2026 <br />  At our residence (Gobind Farm) <br /> 11:00 am Onwards</>,
       link: "https://maps.app.goo.gl/aCyLozjyV2UkoXVL7?g_st=ac",
     },
 
     {
       title_ceremony: "Jago",
       image: "/assets/jago_amul.png",
-      venue_address: <>Thursday, November 26th 2026 <br />  At our residence (Govind Farm) <br /> 7:00 pm Onwards</>,
+      venue_address: <>Thursday, November 26th 2026 <br />  At our residence (Gobind Farm) <br /> 7:00 pm Onwards</>,
       link: "https://maps.app.goo.gl/aCyLozjyV2UkoXVL7?g_st=ac",
     },
 
     {
       title_ceremony: "Shagan",
       image: "/assets/shagan.webp",
-      venue_address: <>Friday, November 27th 2026 <br />  At our residence (Govind Farm) <br /> 11:00 am Onwards</>,
+      venue_address: <>Friday, November 27th 2026 <br />  At our residence (Gobind Farm) <br /> 11:00 am Onwards</>,
       link: "https://maps.app.goo.gl/aCyLozjyV2UkoXVL7?g_st=ac",
     },
 
@@ -183,7 +183,7 @@ export default function Home() {
               className="w-20 h-25 md:w-40 md:h-40 lg:w-40 lg:h-42 object-cover" />
 
             <h2 className="text-[#15528A] text-sm md:text-xl lg:text-3xl md:pt-8 font-playfair-display">
-              With the blessings of Waheguru
+              With the blessings of Waheguru Ji
             </h2>
 
             <hr className="w-16 lg:w-24 border-[#15528A] my-2 md:my-4" />
@@ -209,7 +209,7 @@ export default function Home() {
               Grandson of Sardarni Surinder Kaur Kamboj
             </p>
             <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl mt-4">
-              S/O <br /> Sardarni Gurjeet Kaur Kamboj and Sardar Rishiraman Singh Kamboj
+              S/O <br /> Sardarni Gurjeet Kaur Kamboj and Sardar Rishi Raman Singh Kamboj
             </p>
 
             <h2 className="text-[#15528A] font-playfair-display text-center mt-4 text-4xl md:text-6xl lg:text-[100px] leading-tight font-medium">
@@ -285,14 +285,17 @@ export default function Home() {
             {/* <div className="absolute flex flex-col justify-center text-center md:mb-0 lg:mb-0 md:top-50 lg:top-84 3xl:top-152"> */}
             <div className="absolute left-0 right-0 w-full flex flex-col items-center justify-center text-center md:mb-0 lg:mb-0 md:top-50 lg:top-84 3xl:top-152 -mt-10">
               <p className="font-parisienne-regular font-medium text-2xl md:text-2xl lg:text-[70px] text-[#0064BF]">
-                With <br />Love From Us
+                With <br />Love From
               </p>
 
               <p className="text-[#15528A] font-eb-garamond text-sm md:text-xl lg:text-3xl mt-4 lg:px-150 px-25 md:px-60">
-                Thank you for being part of our journey.
+                {/* Thank you for being part of our journey.
                 Your presence makes this celebration truly
                 meaningful, and we look forward to sharing
-                these cherished moments with you.
+                these cherished moments with you. */}
+                Sardar Pradeep Singh Kamboj <br/>
+Sardar Vikram Singh Kamboj  <br/>
+Sardar Rishi Raman Singh Kamboj
               </p>
             </div>
             <Image
